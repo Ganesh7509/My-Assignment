@@ -1,0 +1,190 @@
+/* Dashboard.css */
+.dashboard {
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F0F5FA;
+}
+
+/* Category.css */
+.category {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.widgets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.add-widget-button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #f0f2f5;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-widget-button:hover {
+  background-color: #e4e6e9;
+}
+
+/* Widget.css */
+.widget {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+}
+
+.widget h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.widget-content {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.remove-widget {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+}
+
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.titleContainer {
+  flex: 1;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.controlsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  outline: none;
+  color:#ccc;
+  background-color: #FFF;
+}
+.addButton:hover {
+  background-color: #f0f0f0;
+  color: #333;
+  border-color: #999;
+}
+
+.addButton:disabled {
+  background-color: #f5f5f5;
+  color: #aaa;
+  border-color: #ddd;
+}
+
+
+.iconButton {
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  outline: none;
+  color: #aaa;
+}
+
+.dateRangeButton {
+  background-color: #F0F0FF;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-size: 14px;
+  color: #aaa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.clockIcon {
+  margin-right: 5px;
+}
+
+.addButton:hover {
+  background-color: #FFF; 
+  color: #ccc; 
+  border-color: #ccc; 
+}
+
+
+.dateRangeButton:hover {
+  background-color: #F0F0FF; 
+  color: #aaa; 
+  border-color: #aaa; 
+}
+
+.iconButton:hover {
+  background-color: #F0F0FF; /* Set background to default */
+  color: #aaa; /* Set text color to default */
+  border-color: #aaa; /* Set border color to default */
+}
